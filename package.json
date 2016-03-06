@@ -1,0 +1,19 @@
+{
+  "author": "Sam Sulaimanov <sam@bitmorse.com>",
+  "license": "MIT",
+  "name": "axon-one",
+  "title": "Axon One",
+  "description": "A demonstration of the nervousnet JS platform.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitmorse/axon-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitmorse/axon-one/issues"
+  },
+  "keywords": [
+    "axon",
+    "demo"
+  ]
+}
