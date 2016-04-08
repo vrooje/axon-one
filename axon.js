@@ -5,7 +5,7 @@
 	
 	setInterval(function(){
 	
-		$.getJSON( "http://localhost:8080/nervousnet-api/raw-sensor-data/Accelerometer", function( data ) {
+		$.getJSON( "http://localhost:8080/nervousnet-api/raw-sensor-data/Accelerometer", function( data )) {
 			
 			$.("#sensordata").html(JSON.stringify(data));
 			
