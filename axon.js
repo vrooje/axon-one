@@ -1,4 +1,4 @@
-var state = "not_answered"
+
 
 (function(){
 
