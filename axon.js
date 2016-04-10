@@ -9,7 +9,7 @@
 		//$.getJSON( "http://localhost:8080/nervousnet-api/raw-sensor-data/Accelerometer", function( data ) {
 		$.getJSON( "http://localhost:8080/nervousnet-api/raw-sensor-data/GPS", function( data ) {
 
-			$("#sensordata").html("Hi"+JSON.stringify(data));
+			$("#sensordata").html(JSON.lat.stringify(data)+";"+JSON.long.stringify(data));
 
 		});
 
