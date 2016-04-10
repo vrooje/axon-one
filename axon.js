@@ -1,8 +1,8 @@
 (function(){
 
 	//call the UI page "home"
-	//App.load('home');
-	App.load('bart-question');
+	App.load('home');
+	//App.load('bart-question');
 
 	setInterval(function(){
 
