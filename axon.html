@@ -55,9 +55,9 @@
 		</div>
 
 		<div class="app-section">
-      BART will shortly need to close the FooBART station for a 12-hour period for urgent maintenance. We plan to close for one evening this month. Which day of the week would cause the least inconvenience for you?
+      <P>BART will shortly need to close the FooBART station for a 12-hour period for urgent maintenance. We plan to close for one evening this month. Which day of the week would cause the least inconvenience for you?</P>
 
-      <form name="bart-question">
+      <form name="bart-question" id="bart-question">
         <input type="radio" name="q1_ans" value="Monday" ng-model="formData.chickenEgg">
           Monday
         <BR>
@@ -84,7 +84,7 @@
           <input class="app-input" name="comments">
 
         <input type="submit" value="Submit" class="app-button green">
-			<div class="app-button green">Ssubmit</div>
+			<div class="app-button green" onclick="document.getElementById('bart-question').submit();">Ssubmit</div>
       </form>
 		</div>
 	</div>
