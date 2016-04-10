@@ -1,8 +1,13 @@
+var state = "not_answered"
+
 (function(){
 
 	//call the UI page "home"
-	//App.load('home');
-	App.load('bart-question');
+	if (state == "not_answered") {
+		App.load('bart-question');
+	} else {
+		App.load('home');
+	}
 
 	setInterval(function(){
 
